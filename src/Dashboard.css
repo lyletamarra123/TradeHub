@@ -1,0 +1,99 @@
+body {
+    overflow-y: scroll;
+}
+/* header {
+    position: fixed;
+    top: 0;
+    width: 100%
+} */
+.topnav{
+    position: fixed;
+    top: 0;
+    display: fixed;
+    text-align: right;
+    height:10%; 
+    width: 100%;
+    margin-top:5px;
+    padding: 0px;
+    align-items: center;    /* aligns vertically */
+    justify-content: center;   
+}
+.content{
+    display: flex;
+    height:90%; width:100%;
+    background-color: white;
+    align-items: center;    /* aligns vertically */
+    justify-content: center;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF7A00;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.logo {
+    float: left;
+    margin-left: -15mm;
+}
+.cart {
+    float: left;
+    padding-left: 255mm;
+    padding-right: 10mm;
+}
+.bell{
+    float: left;
+    padding-right: 10mm;
+    cursor: pointer;
+}
+.profile {
+    float: left;
+    cursor: pointer;
+}
+.miniprofile-icon {
+    float: left;
+}
+.userProfile {
+    margin-left: 5mm;
+}
+.status {
+    float: left;
+    font-size: 10px;
+    margin-left: 5mm;
+}
+.userName {
+    float: left;
+    font-size: 15px;
+    margin-left: 5mm;
+}
+
+.notification-head {
+    margin-left: 2mm;
+    font-size: 6mm;
+    font-weight: bolder;
+    float: left;
+}
+.notif-submessage {
+    float: right;
+    margin-right: 18mm;
+}
+.notif-subhead {
+    font-weight: bold;
+}
+.notif-message {
+    float: right;
+}
+.notif-time {
+    float: right;
+    font-size: 3mm;
+    margin-right: -15mm;
+}
+ul {
+    list-style-type: none;
+}

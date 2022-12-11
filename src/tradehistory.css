@@ -1,0 +1,36 @@
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.th-title {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+.trade-info {
+    margin-left: 110mm;
+}
+
+.history {
+    background-color: white;
+    text-align: left;
+    margin-bottom: 10mm;
+    float: left;
+    margin-right: 80mm;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.info {
+    float: left;
+    margin-right: 25mm;
+    padding-left: 10mm;
+    margin-bottom: 2.5mm;
+}
+
+.item-pic {
+    float: left;
+    margin-top: 5mm;
+    margin-right: 10mm;
+}

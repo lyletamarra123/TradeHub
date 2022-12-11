@@ -1,0 +1,42 @@
+.searchbar {
+    text-align: center;
+}
+div.searchbar input[type=text] {
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 50%;
+    background: #f1f1f1;
+    border-radius: 0px;
+}
+div.searchbar button {
+    width: 5%;
+    padding: 1.8px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+
+.tabs {
+    background-color: #FF7A00; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 150mm;
+    text-transform: uppercase;
+}
+
+.tab1 {
+    background-color: wheat;
+}
+
+.tab2 {
+    background-color: wheat;
+}

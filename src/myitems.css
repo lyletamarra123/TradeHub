@@ -1,0 +1,14 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.mi-title {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.mi-body {
+    text-align: center;
+    font-size: large;
+}
